@@ -8,18 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		7CA618F32680CC2D00E97FA6 /* SwiftyHomeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA618F22680CC2D00E97FA6 /* SwiftyHomeApp.swift */; };
-		7CA618F52680CC2D00E97FA6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA618F42680CC2D00E97FA6 /* ContentView.swift */; };
+		7CA618F52680CC2D00E97FA6 /* AppHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA618F42680CC2D00E97FA6 /* AppHomeView.swift */; };
 		7CA618F72680CC2F00E97FA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CA618F62680CC2F00E97FA6 /* Assets.xcassets */; };
 		7CA618FA2680CC2F00E97FA6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CA618F92680CC2F00E97FA6 /* Preview Assets.xcassets */; };
+		7CA619032680E45E00E97FA6 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA619022680E45E00E97FA6 /* HeaderView.swift */; };
+		7CA619052680E47F00E97FA6 /* LightsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA619042680E47F00E97FA6 /* LightsListView.swift */; };
+		7CA619072680E49D00E97FA6 /* LightLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA619062680E49D00E97FA6 /* LightLineView.swift */; };
+		7CA619092680E54300E97FA6 /* LightDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA619082680E54300E97FA6 /* LightDetailView.swift */; };
+		7CA6190B2680E56F00E97FA6 /* LightViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6190A2680E56F00E97FA6 /* LightViewModel.swift */; };
+		7CA619102680E59E00E97FA6 /* LightModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA6190F2680E59E00E97FA6 /* LightModel.swift */; };
+		7CA619132680E5BF00E97FA6 /* VisualEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA619122680E5BF00E97FA6 /* VisualEffectView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7CA618EF2680CC2D00E97FA6 /* SwiftyHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CA618F22680CC2D00E97FA6 /* SwiftyHomeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyHomeApp.swift; sourceTree = "<group>"; };
-		7CA618F42680CC2D00E97FA6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7CA618F42680CC2D00E97FA6 /* AppHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppHomeView.swift; sourceTree = "<group>"; };
 		7CA618F62680CC2F00E97FA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7CA618F92680CC2F00E97FA6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7CA618FB2680CC2F00E97FA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CA619022680E45E00E97FA6 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		7CA619042680E47F00E97FA6 /* LightsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightsListView.swift; sourceTree = "<group>"; };
+		7CA619062680E49D00E97FA6 /* LightLineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightLineView.swift; sourceTree = "<group>"; };
+		7CA619082680E54300E97FA6 /* LightDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightDetailView.swift; sourceTree = "<group>"; };
+		7CA6190A2680E56F00E97FA6 /* LightViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightViewModel.swift; sourceTree = "<group>"; };
+		7CA6190F2680E59E00E97FA6 /* LightModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightModel.swift; sourceTree = "<group>"; };
+		7CA619122680E5BF00E97FA6 /* VisualEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualEffectView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +66,11 @@
 		7CA618F12680CC2D00E97FA6 /* SwiftyHome */ = {
 			isa = PBXGroup;
 			children = (
+				7CA619112680E5B300E97FA6 /* CustomObjects */,
+				7CA6190E2680E59400E97FA6 /* Models */,
+				7CA6190D2680E57900E97FA6 /* View Models */,
+				7CA619012680E44C00E97FA6 /* Views */,
 				7CA618F22680CC2D00E97FA6 /* SwiftyHomeApp.swift */,
-				7CA618F42680CC2D00E97FA6 /* ContentView.swift */,
 				7CA618F62680CC2F00E97FA6 /* Assets.xcassets */,
 				7CA618FB2680CC2F00E97FA6 /* Info.plist */,
 				7CA618F82680CC2F00E97FA6 /* Preview Content */,
@@ -67,6 +84,42 @@
 				7CA618F92680CC2F00E97FA6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7CA619012680E44C00E97FA6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7CA618F42680CC2D00E97FA6 /* AppHomeView.swift */,
+				7CA619022680E45E00E97FA6 /* HeaderView.swift */,
+				7CA619042680E47F00E97FA6 /* LightsListView.swift */,
+				7CA619062680E49D00E97FA6 /* LightLineView.swift */,
+				7CA619082680E54300E97FA6 /* LightDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7CA6190D2680E57900E97FA6 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6190A2680E56F00E97FA6 /* LightViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		7CA6190E2680E59400E97FA6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7CA6190F2680E59E00E97FA6 /* LightModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7CA619112680E5B300E97FA6 /* CustomObjects */ = {
+			isa = PBXGroup;
+			children = (
+				7CA619122680E5BF00E97FA6 /* VisualEffectView.swift */,
+			);
+			path = CustomObjects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +191,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CA618F52680CC2D00E97FA6 /* ContentView.swift in Sources */,
+				7CA619092680E54300E97FA6 /* LightDetailView.swift in Sources */,
+				7CA618F52680CC2D00E97FA6 /* AppHomeView.swift in Sources */,
+				7CA619132680E5BF00E97FA6 /* VisualEffectView.swift in Sources */,
+				7CA619052680E47F00E97FA6 /* LightsListView.swift in Sources */,
+				7CA6190B2680E56F00E97FA6 /* LightViewModel.swift in Sources */,
+				7CA619102680E59E00E97FA6 /* LightModel.swift in Sources */,
+				7CA619072680E49D00E97FA6 /* LightLineView.swift in Sources */,
+				7CA619032680E45E00E97FA6 /* HeaderView.swift in Sources */,
 				7CA618F32680CC2D00E97FA6 /* SwiftyHomeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
